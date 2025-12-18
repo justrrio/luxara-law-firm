@@ -25,13 +25,13 @@ export default function WIPHero() {
         <h1 
           className="animate-fade-in-up-delay-1 text-4xl md:text-5xl lg:text-6xl font-bold text-[var(--foreground)] leading-tight"
         >
-          We're Building Something...{" "}
+          We&apos;re Building Something...{" "}
           <span className="text-[var(--wip-accent)]">Extraordinary</span>
         </h1>
 
         {/* Subheading */}
         <p className="animate-fade-in-up-delay-2 text-lg md:text-xl lg:text-2xl text-[var(--wip-text-muted)] max-w-2xl mx-auto leading-relaxed">
-          Your trusted legal partner is evolving. We're crafting a modern platform 
+          Your trusted legal partner is evolving. We&apos;re crafting a modern platform 
           to serve you better with excellence and integrity.
         </p>
 

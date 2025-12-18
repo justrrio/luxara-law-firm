@@ -71,10 +71,10 @@ export default function EmailNotificationForm() {
               </svg>
             </div>
             <h3 className="text-xl font-semibold text-[var(--foreground)] mb-2">
-              You're on the list!
+              You&apos;re on the list!
             </h3>
             <p className="text-[var(--wip-text-muted)]">
-              We'll notify you at <strong className="text-[var(--foreground)]">{email}</strong> when we launch.
+              We&apos;ll notify you at <strong className="text-[var(--foreground)]">{email}</strong> when we launch.
             </p>
           </div>
         ) : (
