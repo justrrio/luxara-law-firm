@@ -29,7 +29,7 @@ function WIPPage() {
         </h1>
 
         <p className="animate-fade-in-delay-1 mt-6 text-xl md:text-2xl font-medium text-gray-600 dark:text-gray-400">
-          We&apos;re building something special
+          We&apos;re building something special...
         </p>
 
         <p className="animate-fade-in-delay-2 mt-6 text-base md:text-lg text-gray-500 dark:text-gray-500 leading-relaxed max-w-xl mx-auto">
