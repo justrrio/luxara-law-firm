@@ -1,0 +1,13 @@
+{
+  "business": {
+    "number": "6281211111789",
+    "displayNumber": "+62 812-1111-1789",
+    "name": "Luxara Law Firm",
+    "fallbackNumber": "6281211111789"
+  },
+  "settings": {
+    "openInNewTab": true,
+    "enableFallback": true,
+    "debugMode": false
+  }
+}

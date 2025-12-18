@@ -1,0 +1,201 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  /* Section 2 */
+  --background-color-01: #1f1b17;
+  --text-primary-section-01: #ffffff;
+  --text-secondary-section-01: #c9a875;
+  /* Section 3 */
+  --background-section-3: #ffffff;
+  --text-primary-section-3: #000000;
+  --text-secondary-section-3: #c9a875;
+  --background-section-4: #1f1b17;
+  
+  /* WIP Page Variables */
+  --wip-gradient-start: #ffffff;
+  --wip-gradient-end: #faf8f5;
+  --wip-accent: #c9a875;
+  --wip-accent-light: rgba(201, 168, 117, 0.2);
+  --wip-text-muted: #6b7280;
+  --wip-success: #10b981;
+  --wip-error: #ef4444;
+  --wip-border: #e5e7eb;
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-helvetica: "Helvetica", "Arial", sans-serif;
+  --font-georgia: "Georgia", serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    /* Dark mode WIP variables */
+    --wip-gradient-start: #0a0a0a;
+    --wip-gradient-end: #1a1a1a;
+    --wip-text-muted: #9ca3af;
+    --wip-border: #374151;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-georgia);
+}
+
+p {
+  font-family: var(--font-helvetica);
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("/fonts/Helvetica-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("/fonts/Helvetica-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Georgia Font Family */
+@font-face {
+  font-family: "Georgia";
+  src: url("/fonts/Georgia-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Georgia";
+  src: url("/fonts/Georgia-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Georgia";
+  src: url("/fonts/Georgia-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ========================================
+   WIP PAGE ANIMATIONS
+   ======================================== */
+
+/* Pulse Glow Animation - GitHub-inspired */
+@keyframes pulse-glow {
+  0%, 100% {
+    transform: scale(1);
+    text-shadow: 
+      0 0 20px rgba(59, 130, 246, 0.4),
+      0 0 40px rgba(59, 130, 246, 0.2),
+      0 0 60px rgba(59, 130, 246, 0.1);
+  }
+  50% {
+    transform: scale(1.01);
+    text-shadow: 
+      0 0 30px rgba(59, 130, 246, 0.6),
+      0 0 60px rgba(59, 130, 246, 0.4),
+      0 0 90px rgba(59, 130, 246, 0.2);
+  }
+}
+
+/* Fade-in Up Animation */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Subtle floating animation for decorative elements */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Accessibility: Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .animate-pulse-glow,
+  .animate-fade-in,
+  .animate-float {
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
+/* Animation Utilities */
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+  will-change: transform, text-shadow;
+}
+
+.animate-fade-in {
+  animation: fade-in-up 1s ease-out forwards;
+}
+
+.animate-fade-in-delay-1 {
+  animation: fade-in-up 1s ease-out 0.2s forwards;
+  opacity: 0;
+}
+
+.animate-fade-in-delay-2 {
+  animation: fade-in-up 1s ease-out 0.4s forwards;
+  opacity: 0;
+}
+
+.animate-fade-in-delay-3 {
+  animation: fade-in-up 1s ease-out 0.6s forwards;
+  opacity: 0;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Grid Background - Mistral AI Style */
+.grid-background {
+  background-color: #ffffff;
+  background-image: radial-gradient(circle, #e5e7eb 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* Dark mode grid */
+@media (prefers-color-scheme: dark) {
+  .grid-background {
+    background-color: #0a0a0a;
+    background-image: radial-gradient(circle, #374151 1px, transparent 1px);
+  }
+}

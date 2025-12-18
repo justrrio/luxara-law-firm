@@ -1,0 +1,29 @@
+{
+  "templates": {
+    "HUBUNGI_KAMI": {
+      "title": "Konsultasi Hukum",
+      "message": "Halo Luxara Law Firm,\n\nSaya tertarik untuk berkonsultasi mengenai layanan hukum. Bisakah saya mendapatkan informasi lebih lanjut?\n\nTerima kasih.",
+      "category": "consultation"
+    },
+    "SISTEM_BANTUAN": {
+      "title": "Bantuan Website",
+      "message": "Halo Admin Luxara Law Firm,\n\nSaya memerlukan bantuan terkait penggunaan website. Mohon dapat dibantu.\n\nTerima kasih.",
+      "category": "support"
+    },
+    "KEBIJAKAN_PENGEMBALIAN": {
+      "title": "Kebijakan Pengembalian",
+      "message": "Halo Luxara Law Firm,\n\nSaya ingin menanyakan tentang kebijakan pengembalian biaya konsultasi. Bisakah dijelaskan?\n\nTerima kasih.",
+      "category": "policy"
+    },
+    "TENTANG_KAMI": {
+      "title": "Informasi Perusahaan",
+      "message": "Halo Luxara Law Firm,\n\nSaya ingin mengetahui lebih detail tentang profil perusahaan dan layanan yang tersedia.\n\nTerima kasih.",
+      "category": "info"
+    }
+  },
+  "defaultTemplate": {
+    "title": "Konsultasi Umum",
+    "message": "Halo Luxara Law Firm,\n\nSaya ingin bertanya tentang layanan hukum yang tersedia.\n\nTerima kasih.",
+    "category": "general"
+  }
+}

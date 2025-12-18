@@ -1,0 +1,23 @@
+{
+  "office": {
+    "coordinates" : {
+      "lat": -6.253721144906566,
+      "lng": 106.80092636958854
+    },
+ "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d556.4711083194078!2d106.8005386597612!3d-6.253822306194204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f18646855af9%3A0x5c5e7bd545003303!2sARAKATA%20Law%20Firm!5e0!3m2!1sid!2sid!4v1757775681526!5m2!1sid!2sid",
+ "googleMapsLink" : "https://maps.app.goo.gl/v2fzhXF31udxZhiDA",
+  "address": {
+      "building": "Ruko Menara Legitas Lantai 12, Unit 1203",
+      "street": "Jl.Prof.Dr.Satrio No.88, Kawasan Mega Kuningan Kel.",
+      "district": "Karet Kuningan, Kec. Setiamega"
+    },
+    "contact": {
+      "phone": "+62-812-3456-7890",
+      "email": "advokat@luxaralawfirm.com"
+    },
+    "workingHours": {
+      "weekdays": "Senin - Jum'at : 09:00 - 18:00 WIB",
+      "weekend": "Sabtu - Minggu : Libur"
+    }
+  }
+}

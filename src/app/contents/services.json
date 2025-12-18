@@ -1,0 +1,52 @@
+[
+  {
+    "imagePath": "/section-4/sengketa-hutang-piutang.png",
+    "name": "Sengketa Hutang Piutang",
+    "description": "Penyelesaian konflik utang secara hukum."
+  },
+  {
+    "imagePath": "/section-4/sengketa-tanah-dan-properti.png",
+    "name": "Sengketa Tanah dan Properti",
+    "description": " Penanganan masalah kepemilikan dan batas tanah."
+  },
+  {
+    "imagePath": "/section-4/perjanjian-jual-beli.png",
+    "name": "Perjanjian Jual Beli",
+    "description": "Penyusunan dan sengketa kontrak jual beli properti."
+  },
+  {
+    "imagePath": "/section-4/restorative-justice.png",
+    "name": "Restorative Justice",
+    "description": "Penyelesaian pidana dengan perdamaian."
+  },
+  {
+    "imagePath": "/section-4/hak-asuh-anak.png",
+    "name": "Hak Asuh Anak",
+    "description": "Bantuan hukum hak asuh pasca perceraian."
+  },
+  {
+    "imagePath": "/section-4/mediasi-keluarga.png",
+    "name": "Mediasi Keluarga",
+    "description": "Perdamaian konflik dalam keluarga."
+  },
+  {
+    "imagePath": "/section-4/sengketa-warisan.png",
+    "name": "Sengketa Warisan",
+    "description": "Pembagian warisan sesuai hukum."
+  },
+  {
+    "imagePath": "/section-4/penetapan-waris.png",
+    "name": "Penetapan Waris",
+    "description": "Pengurusan dokumen ahli waris."
+  },
+  {
+    "imagePath": "/section-4/wasiat-dan-hibah.png",
+    "name": "Wasiat dan Hibah",
+    "description": "Pembuatan dokumen wasiat dan hibah."
+  },
+  {
+    "imagePath": "/section-4/kasus-kekerasan-fisik.png",
+    "name": "Kasus Kekerasan Fisik",
+    "description": "Pendampingan korban atau pelaku kekerasan."
+  }
+]

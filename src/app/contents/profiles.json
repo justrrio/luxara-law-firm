@@ -1,0 +1,51 @@
+[
+  {
+    "imagePath": "/section-3/profile-picture-john-anderson.png",
+    "name": "Andi Suharto",
+    "title": "Managing Partner",
+    "specialization": "Hukum Korporasi & Manajemen",
+    "experience": "Lebih dari 20 tahun pengalaman dalam menangani transaksi bisnis dan merger perusahaan skala besar."
+  },
+  {
+    "imagePath": "/section-3/profile-picture-sarah-williams.png",
+    "name": "Sarah Williams",
+    "title": "Senior Partner",
+    "specialization": "Litigasi & Penyelesaian Sengketa",
+    "experience": "Ahli dalam menangani kasus sengketa kompleks dengan strategi litigasi yang efisien dan efektif."
+  },
+  {
+    "imagePath": "/section-3/profile-picture-michael-chen.png",
+    "name": "Michael Chen",
+    "title": "Associate Partner",
+    "specialization": "Teknologi & Perlindungan Data",
+    "experience": "Berpengalaman dalam perlindungan data digital dan penanganan pelanggaran keamanan informasi."
+  },
+  {
+    "imagePath": "/section-3/profile-picture-amira-putri.png",
+    "name": "Amira Putri",
+    "title": "Konsultan Hukum",
+    "specialization": "Hukum Ketenagakerjaan",
+    "experience": "Memberikan saran strategis untuk kepatuhan ketenagakerjaan dan manajemen sumber daya manusia yang efisien."
+  },
+  {
+    "imagePath": "/section-3/profile-picture-emma-rodriguez.png",
+    "name": "Emma Rodriguez",
+    "title": "Senior Partner",
+    "specialization": "Hukum Perdata & Keluarga",
+    "experience": "Berpengalaman dalam menangani kasus perceraian, warisan, dan hak asuh anak dengan pendekatan yang empatik dan profesional."
+  },
+  {
+    "imagePath": "/section-3/profile-picture-nadine-saraswati.png",
+    "name": "Nadine Saraswati",
+    "title": "Senior Counsel",
+    "specialization": "Kepatuhan Korporat & Manajemen Resiko",
+    "experience": "Menggabungkan ketelitian dan pendekatan strategis, Nadine membantu perusahaan menghadapi tantangan regulasi dan mengelola risiko hukum secara proaktif."
+  },
+  {
+    "imagePath": "/section-3/profile-picture-nadine-saraswati.png",
+    "name": "Nadine Saraswati",
+    "title": "Senior Counsel",
+    "specialization": "Kepatuhan Korporat & Manajemen Resiko",
+    "experience": "Menggabungkan ketelitian dan pendekatan strategis, Nadine membantu perusahaan menghadapi tantangan regulasi dan mengelola risiko hukum secara proaktif."
+  }
+]
